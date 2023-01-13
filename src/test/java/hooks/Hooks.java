@@ -2,6 +2,7 @@ package hooks;
 
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
+import utilities.Driver;
 
 public class Hooks {
 
@@ -13,6 +14,7 @@ public class Hooks {
     @After
     public void teardown(){
         System.out.println("Afret methodu çalıştı");
+        Driver.closeDriver();
     }
 
 }

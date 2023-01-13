@@ -1,0 +1,220 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-01-13T02:37:22.095Z",
+        "before": [
+          {
+            "result": {
+              "duration": 877000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Senaryo 1",
+        "description": "",
+        "id": "hooks-kullanımı-feature;senaryo-1",
+        "after": [
+          {
+            "result": {
+              "duration": 78000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 230000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Ilk feature için cucumber indirdim",
+            "match": {
+              "location": "stepdefinitions.FirstStepDefinition.ılk_feature_için_cucumber_indirdim()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 98000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Senaryomu çalıştırıdığımda",
+            "match": {
+              "location": "stepdefinitions.FirstStepDefinition.senaryomu_çalıştırıdığımda()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 83000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "senaryom çalıştığında konsolda görmeliyim",
+            "match": {
+              "location": "stepdefinitions.FirstStepDefinition.senaryom_çalıştığında_konsolda_görmeliyim()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-01-13T02:37:22.111Z",
+        "before": [
+          {
+            "result": {
+              "duration": 75000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Senaryo 2",
+        "description": "",
+        "id": "hooks-kullanımı-feature;senaryo-2",
+        "after": [
+          {
+            "result": {
+              "duration": 54000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 64000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Ilk feature için cucumber indirdim",
+            "match": {
+              "location": "stepdefinitions.FirstStepDefinition.ılk_feature_için_cucumber_indirdim()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 67000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Senaryomu çalıştırıdığımda",
+            "match": {
+              "location": "stepdefinitions.FirstStepDefinition.senaryomu_çalıştırıdığımda()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 73000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "senaryom çalıştığında konsolda görmeliyim",
+            "match": {
+              "location": "stepdefinitions.FirstStepDefinition.senaryom_çalıştığında_konsolda_görmeliyim()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-01-13T02:37:22.116Z",
+        "before": [
+          {
+            "result": {
+              "duration": 63000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Senaryo 3",
+        "description": "",
+        "id": "hooks-kullanımı-feature;senaryo-3",
+        "after": [
+          {
+            "result": {
+              "duration": 49000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 61000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Ilk feature için cucumber indirdim",
+            "match": {
+              "location": "stepdefinitions.FirstStepDefinition.ılk_feature_için_cucumber_indirdim()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 64000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Senaryomu çalıştırıdığımda",
+            "match": {
+              "location": "stepdefinitions.FirstStepDefinition.senaryomu_çalıştırıdığımda()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 57000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "senaryom çalıştığında konsolda görmeliyim",
+            "match": {
+              "location": "stepdefinitions.FirstStepDefinition.senaryom_çalıştığında_konsolda_görmeliyim()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Hooks Kullanımı Feature",
+    "description": "",
+    "id": "hooks-kullanımı-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/07_Hooks.feature",
+    "tags": []
+  }
+]

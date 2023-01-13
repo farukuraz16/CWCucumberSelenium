@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="0.102">
+    <testcase classname="Hooks Kullanımı Feature" name="Senaryo 1" time="0.01">
+        <system-out><![CDATA[Given Ilk feature için cucumber indirdim....................................passed
+When Senaryomu çalıştırıdığımda.............................................passed
+Then senaryom çalıştığında konsolda görmeliyim..............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Hooks Kullanımı Feature" name="Senaryo 2" time="0.002">
+        <system-out><![CDATA[Given Ilk feature için cucumber indirdim....................................passed
+When Senaryomu çalıştırıdığımda.............................................passed
+Then senaryom çalıştığında konsolda görmeliyim..............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Hooks Kullanımı Feature" name="Senaryo 3" time="0.001">
+        <system-out><![CDATA[Given Ilk feature için cucumber indirdim....................................passed
+When Senaryomu çalıştırıdığımda.............................................passed
+Then senaryom çalıştığında konsolda görmeliyim..............................passed
+]]></system-out>
+    </testcase>
+</testsuite>
